@@ -1,0 +1,4 @@
+#!/bin/sh
+
+set -e
+sed -i '/zend_extension=opcache.so/d' /usr/local/etc/php/extensions.ini

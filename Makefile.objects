@@ -1,0 +1,74 @@
+ZendAccelerator.lo: /build/php-src-php-7.2.1/ext/opcache/ZendAccelerator.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/ZendAccelerator.c -o ZendAccelerator.lo 
+zend_accelerator_blacklist.lo: /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_blacklist.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_blacklist.c -o zend_accelerator_blacklist.lo 
+zend_accelerator_debug.lo: /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_debug.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_debug.c -o zend_accelerator_debug.lo 
+zend_accelerator_hash.lo: /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_hash.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_hash.c -o zend_accelerator_hash.lo 
+zend_accelerator_module.lo: /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_module.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_module.c -o zend_accelerator_module.lo 
+zend_persist.lo: /build/php-src-php-7.2.1/ext/opcache/zend_persist.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_persist.c -o zend_persist.lo 
+zend_persist_calc.lo: /build/php-src-php-7.2.1/ext/opcache/zend_persist_calc.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_persist_calc.c -o zend_persist_calc.lo 
+zend_file_cache.lo: /build/php-src-php-7.2.1/ext/opcache/zend_file_cache.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_file_cache.c -o zend_file_cache.lo 
+zend_shared_alloc.lo: /build/php-src-php-7.2.1/ext/opcache/zend_shared_alloc.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_shared_alloc.c -o zend_shared_alloc.lo 
+zend_accelerator_util_funcs.lo: /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_util_funcs.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/zend_accelerator_util_funcs.c -o zend_accelerator_util_funcs.lo 
+shared_alloc_shm.lo: /build/php-src-php-7.2.1/ext/opcache/shared_alloc_shm.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/shared_alloc_shm.c -o shared_alloc_shm.lo 
+shared_alloc_mmap.lo: /build/php-src-php-7.2.1/ext/opcache/shared_alloc_mmap.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/shared_alloc_mmap.c -o shared_alloc_mmap.lo 
+shared_alloc_posix.lo: /build/php-src-php-7.2.1/ext/opcache/shared_alloc_posix.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/shared_alloc_posix.c -o shared_alloc_posix.lo 
+Optimizer/zend_optimizer.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_optimizer.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_optimizer.c -o Optimizer/zend_optimizer.lo 
+Optimizer/pass1_5.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/pass1_5.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/pass1_5.c -o Optimizer/pass1_5.lo 
+Optimizer/pass2.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/pass2.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/pass2.c -o Optimizer/pass2.lo 
+Optimizer/pass3.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/pass3.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/pass3.c -o Optimizer/pass3.lo 
+Optimizer/optimize_func_calls.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/optimize_func_calls.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/optimize_func_calls.c -o Optimizer/optimize_func_calls.lo 
+Optimizer/block_pass.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/block_pass.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/block_pass.c -o Optimizer/block_pass.lo 
+Optimizer/optimize_temp_vars_5.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/optimize_temp_vars_5.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/optimize_temp_vars_5.c -o Optimizer/optimize_temp_vars_5.lo 
+Optimizer/nop_removal.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/nop_removal.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/nop_removal.c -o Optimizer/nop_removal.lo 
+Optimizer/compact_literals.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/compact_literals.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/compact_literals.c -o Optimizer/compact_literals.lo 
+Optimizer/zend_cfg.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_cfg.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_cfg.c -o Optimizer/zend_cfg.lo 
+Optimizer/zend_dfg.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_dfg.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_dfg.c -o Optimizer/zend_dfg.lo 
+Optimizer/dfa_pass.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/dfa_pass.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/dfa_pass.c -o Optimizer/dfa_pass.lo 
+Optimizer/zend_ssa.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_ssa.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_ssa.c -o Optimizer/zend_ssa.lo 
+Optimizer/zend_inference.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_inference.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_inference.c -o Optimizer/zend_inference.lo 
+Optimizer/zend_func_info.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_func_info.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_func_info.c -o Optimizer/zend_func_info.lo 
+Optimizer/zend_call_graph.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_call_graph.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_call_graph.c -o Optimizer/zend_call_graph.lo 
+Optimizer/sccp.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/sccp.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/sccp.c -o Optimizer/sccp.lo 
+Optimizer/scdf.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/scdf.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/scdf.c -o Optimizer/scdf.lo 
+Optimizer/dce.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/dce.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/dce.c -o Optimizer/dce.lo 
+Optimizer/compact_vars.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/compact_vars.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/compact_vars.c -o Optimizer/compact_vars.lo 
+Optimizer/zend_dump.lo: /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_dump.c
+	$(LIBTOOL) --mode=compile $(CC) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I. -I/build/php-src-php-7.2.1/ext/opcache $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /build/php-src-php-7.2.1/ext/opcache/Optimizer/zend_dump.c -o Optimizer/zend_dump.lo 
+$(phplibdir)/opcache.la: ./opcache.la
+	$(LIBTOOL) --mode=install cp ./opcache.la $(phplibdir)
+
+./opcache.la: $(shared_objects_opcache) $(OPCACHE_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_opcache) $(OPCACHE_SHARED_LIBADD)
+

@@ -1,0 +1,9 @@
+Package: php72-opcache
+Priority: extra
+Section: checkinstall
+Installed-Size: 444
+Maintainer: root@3034aa052a21
+Architecture: amd64
+Version: 7.2.1-1
+Provides: php72-opcache
+Description: trivago custom2 php72-opcache 7.2.1
